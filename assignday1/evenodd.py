@@ -1,11 +1,20 @@
-x=int(input('enter a number:'))
+num=int(input('Enter a number: '))
 
-print("the even numbers are:")
-for i in range(x,x+10):
-	if(i%2==0):
-		print(i)
+t = num%2==0
 
-print("the add numbers are :")
-for i in range(x,x+10):
-	if(i%2==1):
-		print(i)
+if(t):
+    print('Even:', end=' ')
+    for i in range(num,num+10,2):
+        print(i, end=' ')
+    print()
+    print('Odd: ', end=' ')
+    for i in range(num+1,num+10,2):
+        print(i, end=' ')
+else:
+    print('Odd: ', end=' ')
+    for i in range(num,num+10,2):
+        print(i, end=' ')
+    print()
+    print('Even:', end=' ')
+    for i in range(num+1,num+10,2):
+        print(i, end=' ')
