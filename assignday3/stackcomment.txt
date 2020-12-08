@@ -1,0 +1,17 @@
+
+Create a Package to satisfy the needs of this main module
+where Stack_calls is a function in the module
+and the output of the program should be
+__start_fun started__
+
+Wait while we are contacting BSE
+Trying to yield stock details of Infy
+
+__start_fun completed__
+actual_fun Recieving 10 20 30
+
+__log_fun started__
+Logging Info to ETW
+Logging Info to Console
+
+__log_fun completed__
